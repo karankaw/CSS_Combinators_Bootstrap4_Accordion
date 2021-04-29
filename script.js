@@ -8,11 +8,11 @@ console.log($("button.btn.btn-link.invisible"))
   var visibility = btn.hasClass('visible')
   console.log(visibility)
 
-  btn.removeClass('visible')
-  btn.removeClass('invisible')
+  // btn.removeClass('visible')
+  // btn.removeClass('invisible')
 
-  var btnClass = visibility ? 'invisible' : 'visible' 
-  console.log(`${btnClass} Applied`)
-  btn.addClass(btnClass)
+  // var btnClass = visibility ? 'invisible' : 'visible' 
+  // console.log(`${btnClass} Applied`)
+  // btn.addClass(btnClass)
   
 }
